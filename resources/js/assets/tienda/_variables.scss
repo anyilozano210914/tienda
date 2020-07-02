@@ -1,0 +1,25 @@
+// Font Size
+$generalFontSize: 16px !default;
+$fontSizeSubmenu: 14px !default;
+$fontSizeH4: 1.125rem !default;
+
+// Color
+    // Black
+    $blackColor: #000 !default;
+
+    // Gray
+    $lightGrayColor: #3d464d !default;
+    $grayDarkColor: lighten($blackColor, 20%) !default;
+
+    // Blue
+    $lightBlueColor: #1a66ff !default;
+    $brand-primary: $lightBlueColor !default;
+
+    // White
+    $whiteColor: #fff !default;
+
+    // Transparent
+    $transparentColor: transparent !default;
+
+// Border Radius
+$border-radius-large: 6px !default;

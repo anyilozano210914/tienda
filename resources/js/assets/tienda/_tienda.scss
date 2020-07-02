@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.card {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    border: 0;
+    margin-top: 30px;
+    border-radius: $border-radius-large;
+    color: $grayDarkColor;
+    background: $whiteColor;
+    width: 100%;
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    font-size: .875rem;
+    font-size: 'Poppins', sans-serif !important;
+
+    .card-header-primary {
+        border-radius: 3px;
+        margin-top: -20px;
+        padding: 15px;
+        background: linear-gradient(60deg, #027fff, #1976D2);
+        position: relative;
+        z-index: 3;
+        color: $whiteColor;
+        font-size: 'Poppins', sans-serif !important;
+        margin-left: 15px;
+        margin-right: 15px;
+
+        .card-title {
+            margin-bottom: 3px;
+            color: $whiteColor;
+            margin-top: 0;
+            text-decoration: none;
+            font-size: $fontSizeH4;
+            line-height: 1.4em;
+            font-weight: 300;        
+            font-family: 'Poppins', sans-serif !important;
+        }
+    }
+
+    .card-body {
+        padding: .9375rem 20px;
+        position: relative;
+        flex: 1 1 auto;
+
+        .bmd-form-group {
+            position: relative;
+
+            .input-group {
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: stretch;
+                width: 100%;
+
+                .input-group-prepend {
+                    margin-right: -1px;
+                    display: flex;
+
+                    .input-group-text {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 15px 0 15px;
+                        background-color: transparent;
+                        border-color: transparent;
+                        border: 1px solid transparent;
+                        border-radius: 0;
+                        margin-bottom: 0;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        line-height: 1.5;
+                        color: #495057;
+                        text-align: center;
+                        white-space: nowrap;
+                    }
+
+                    .v-text-field {
+                        input {
+                            font-size: 14px !important;
+                            max-width: 70% !important;
+                        }
+                    }
+
+                    .form-control {
+                        position: relative;
+                        flex: 1 1 auto;
+                        width: 1%;
+                        margin-bottom: 0;
+                        
+                        input {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .btnLogin {
+            min-width: 100%;
+            margin-top: 20px;
+        }
+
+        .registry-link {
+            margin-top: 10px;
+            text-align: center !important;
+            justify-content: center !important;
+        }
+    }
+}
